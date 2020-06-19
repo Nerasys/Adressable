@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 0f2fd74f2c203c24982a329ce741d594
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_UniqueBundleIds: 0
+  m_RemoteCatalogBuildPath:
+    m_Id: 8f58a96f535679d4ab6323a4b9ce0290
+  m_RemoteCatalogLoadPath:
+    m_Id: 443c2a8a8b1d37947b8821be465136c0
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 821b05651a04d944cbfa52c983973b6a, type: 2}
+  - {fileID: 11400000, guid: f5a6d06f3609831488b3d5efc08f3479, type: 2}
+  - {fileID: 11400000, guid: 00cba1c94366c7f4480ebee1ef70b46c, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 4bf3484c821695f41af1ccd88315e013
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 7f56af6f0a78cea4687cad06ee526296
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 41eab027ab73d294c921d2dafa4030fc
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 861210ebf4710d64d97fa7c23bde7475
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 8f58a96f535679d4ab6323a4b9ce0290
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 443c2a8a8b1d37947b8821be465136c0
+        m_Value: localhost/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 55e9d0cd1db262a4fb0f41ac70f4fbf6
+      m_ProfileName: New Profile
+      m_Values:
+      - m_Id: 7f56af6f0a78cea4687cad06ee526296
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 41eab027ab73d294c921d2dafa4030fc
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 861210ebf4710d64d97fa7c23bde7475
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 8f58a96f535679d4ab6323a4b9ce0290
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 443c2a8a8b1d37947b8821be465136c0
+        m_Value: https://immersive-unity-rd.s3.eu-west-3.amazonaws.com/[BuildTarget]
+    m_ProfileEntryNames:
+    - m_Id: 7f56af6f0a78cea4687cad06ee526296
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 41eab027ab73d294c921d2dafa4030fc
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 861210ebf4710d64d97fa7c23bde7475
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: 8f58a96f535679d4ab6323a4b9ce0290
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 443c2a8a8b1d37947b8821be465136c0
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Pres
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 96bf92114603e064e9660721e0da2fcf, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: b46ba9ccfd4b00247870b6f6ef391ffa, type: 2}
+  - {fileID: 11400000, guid: 4c9d5fc17f572fe4abc9a7f302776360, type: 2}
+  - {fileID: 11400000, guid: a3e5b81a9414b2e4bab5ba3fce69147d, type: 2}
+  - {fileID: 11400000, guid: 2de82b18a9fb9244bb2f90eb46baa7cd, type: 2}
+  m_ActiveProfileId: 55e9d0cd1db262a4fb0f41ac70f4fbf6
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []

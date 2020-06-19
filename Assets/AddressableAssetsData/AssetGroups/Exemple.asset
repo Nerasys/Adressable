@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Exemple
+  m_EditorClassIdentifier: 
+  m_GroupName: Exemple
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0f2fd74f2c203c24982a329ce741d594
+  m_SerializeEntries:
+  - m_GUID: 2857a00f929827d4ca05e2b42d26cdc5
+    m_Address: Assets/Prefabs/Extincteur.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2008454341373014722, guid: 2857a00f929827d4ca05e2b42d26cdc5,
+      type: 3}
+    m_TargetAsset: {fileID: 2008454341373014722, guid: 2857a00f929827d4ca05e2b42d26cdc5,
+      type: 3}
+  - m_GUID: 4a5e48aa724230b4ba1fddfbd1080957
+    m_Address: Assets/Prefabs/Capsule 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 909ef799de115e649b906e770b784f57
+    m_Address: Assets/Prefabs/Beer.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: -927199367670048503, guid: 909ef799de115e649b906e770b784f57,
+      type: 3}
+    m_TargetAsset: {fileID: -927199367670048503, guid: 909ef799de115e649b906e770b784f57,
+      type: 3}
+  - m_GUID: ab3c727319d45cc439101ea334b8d03d
+    m_Address: Assets/Prefabs/Capsule.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pres
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f9b5f654a98aa6144aa150855f5e492e
+    m_Address: Assets/Prefabs/Modifiable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2fd4c9fbe27241943b298841e4b84b52, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: de53e36dbe7b18941b06e1306feb99ba, type: 2}
+    - {fileID: 11400000, guid: caf9795092c37504587352255b5ca33f, type: 2}
