@@ -10,10 +10,19 @@ public class FirstLoad : MonoBehaviour
 {
     public AssetReference assetReference;
     [SerializeField] private string _label;
+
+
+    List<GameObject> listObject = new  List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
         Get(_label);
+         for(int i = 0 ; i < listObject.Count;i++)
+     {
+         Debug.Log(listObject[i].name);
+
+
+     }
     }
     
     private async void Get(string _label)
@@ -22,9 +31,11 @@ public class FirstLoad : MonoBehaviour
         var locations = await Addressables.LoadResourceLocationsAsync(_label).Task;
         foreach (var location in locations)
         {
-            Debug.Log("Load");
-            await Addressables.InstantiateAsync(location).Task;
+            listObject.Add((GameObject)location.Data);
         }
+
+    
+
     }
 
 }

@@ -26,33 +26,15 @@ MonoBehaviour:
       type: 3}
     m_TargetAsset: {fileID: 2008454341373014722, guid: 2857a00f929827d4ca05e2b42d26cdc5,
       type: 3}
-  - m_GUID: 4a5e48aa724230b4ba1fddfbd1080957
-    m_Address: Assets/Prefabs/Capsule 1.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 909ef799de115e649b906e770b784f57
-    m_Address: Assets/Prefabs/Beer.FBX
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: -927199367670048503, guid: 909ef799de115e649b906e770b784f57,
-      type: 3}
-    m_TargetAsset: {fileID: -927199367670048503, guid: 909ef799de115e649b906e770b784f57,
-      type: 3}
-  - m_GUID: ab3c727319d45cc439101ea334b8d03d
-    m_Address: Assets/Prefabs/Capsule.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Pres
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: f9b5f654a98aa6144aa150855f5e492e
     m_Address: Assets/Prefabs/Modifiable.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_SerializedLabels:
+    - Pres
+    m_MainAsset: {fileID: 1431332839286550844, guid: f9b5f654a98aa6144aa150855f5e492e,
+      type: 3}
+    m_TargetAsset: {fileID: 1431332839286550844, guid: f9b5f654a98aa6144aa150855f5e492e,
+      type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2fd4c9fbe27241943b298841e4b84b52, type: 2}
   m_SchemaSet:

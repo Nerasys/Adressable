@@ -25,7 +25,6 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 821b05651a04d944cbfa52c983973b6a, type: 2}
   - {fileID: 11400000, guid: f5a6d06f3609831488b3d5efc08f3479, type: 2}
-  - {fileID: 11400000, guid: 00cba1c94366c7f4480ebee1ef70b46c, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -61,6 +60,20 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: 443c2a8a8b1d37947b8821be465136c0
         m_Value: https://immersive-unity-rd.s3.eu-west-3.amazonaws.com/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 45286d9caf075fb4e960c17dc72a7df3
+      m_ProfileName: New Profile1
+      m_Values:
+      - m_Id: 7f56af6f0a78cea4687cad06ee526296
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 41eab027ab73d294c921d2dafa4030fc
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 861210ebf4710d64d97fa7c23bde7475
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 8f58a96f535679d4ab6323a4b9ce0290
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 443c2a8a8b1d37947b8821be465136c0
+        m_Value: localhost/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: 7f56af6f0a78cea4687cad06ee526296
       m_Name: BuildTarget
